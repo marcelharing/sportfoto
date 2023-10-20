@@ -1,0 +1,92 @@
+baseURL = "https://marcelharing.lima-city.de/"
+title = "Sportfoto.tirol Sport-Eventfoto"
+author = "Markus Moser"
+languageCode = "de"
+DefaultContentLanguage = "de"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# Disqus Comment System
+#disqusShortname = ""
+
+
+
+[params]
+
+  
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = false
+
+  [params.logo]
+    main = "img/logo/logo.webp"
+    alt = "Sportfoto.tirol Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "Markus"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = false
+
+  [params.homepage_meta_tags]
+    meta_description = "Markus Moser Sport-Eventfoto, Fotograf in Tirol"
+    meta_og_title = "Sprtfoto.tirol"
+    meta_og_type = "website"
+    meta_og_url = "https://sportfoto.tirol"
+    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_description = "Markus Moser Sport-Eventfoto, Fotograf in Tirol"
+   #  meta_twitter_site = "@username"
+   # meta_twitter_creator = "@username"
+  
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Neuigkeiten"
+    url = "/blog/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "bestellen"
+    name = "Foto bestellen"
+    url = "/bestellen/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 3
+
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "AGBs"
+    url = "/impressum#agb-verbrauchergeschäfte/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Impressum"
+    url = "/impressum/"
+      weight = 2
+
+  [[menu.footer]]
+    name = "Datenschutz"
+    url = "/datenschutz/"
+      weight = 3
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

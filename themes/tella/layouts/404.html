@@ -1,0 +1,19 @@
+{{- define "main" -}}
+ <div class="p404">
+   <h1 class="p404"><b>404 - Page not found</b></h1>
+   <p>Diese Seite existiert nicht.</p>
+   <p><a href="/">Hier</a> geht es zurück zur Hauptseite.</p>
+ </div>
+
+ <style>
+    h1.p404{
+        font-size: 2rem;
+    }
+    div.p404{
+        margin:50px;
+    }
+    div.p404 a{
+        text-decoration: underline;
+    }
+ </style>
+{{- end }}

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Foto Pauschalpakete",
+    "description": "Pauschalpakete für Events von Vereinen und Betrieben.",
+    "image": "img/slide/slide03.jpg",
+    "link": "bestellen/#Pauschalpakete",
+    "alt": "Ein Skirennläufer"
+  },
+  {
+    "title": "Keilrahmenbild",
+    "description": "Dein Sportfoto auf Textilposter mit beliebieger Wunschgröße anfragen.",
+    "image": "img/rennen2.jpg",
+    "link": "bestellen/#keilrahmenbilder-poster-und-weiteres",
+    "alt": "Ein Skirennläufer"
+  },
+  {
+    "title": "Fotos nachbestellen",
+    "description": "Bilder eines besuchten Events nachbestellen.",
+    "image": "img/rennen3.jpg",
+    "link": "bestellen/#fotos-von-events-nachbestellen",
+    "alt": "Ein Skirennläufer"
+  }
+]

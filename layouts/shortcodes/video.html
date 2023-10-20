@@ -1,0 +1,5 @@
+
+<!-- shortcode, der argumente 1,2,3 als height, width und video url nimmt und als template weiter an die datei video.html im layouts/partial ordner gibt -->
+
+{{- $videoData := dict "videoURL" (.Get 0) "height" (.Get 1) "width" (.Get 2) -}}
+{{- partial "video.html" $videoData -}}

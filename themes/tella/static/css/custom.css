@@ -1,0 +1,233 @@
+/* 
+ This CSS file is used to override the existing styles of the theme.
+ You can change the article headings, fonts, colors, etc.
+*/
+/* basics */
+:root {
+  --graywhite: rgb(216, 216, 216);
+  --red: #aa0000ff;
+}
+
+::selection {
+  color: var(--red);
+  background: transparent;
+}
+
+html {
+  background-color: rgb(49, 49, 49);
+}
+
+body {
+  font-family: 'Open Sans',Verdana, Arial, sans-serif !important;
+}
+.scroll-top {
+  background-color: var(--graywhite) !important;
+  color: var(--red);
+}
+.scroll-top:hover {
+  color: #1f1f1fff !important;
+}
+
+
+/* textelemente allgemein (blog...)*/
+p,
+h1:not(.text-4xl.text-white),
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+code,
+table,
+th {
+  color: var(--graywhite) !important;
+}
+
+p a,
+ul a {
+  color: white !important;
+}
+
+strong {
+  color: var(--graywhite) !important;
+}
+/* h1 umbrechen und kleiner, da zu sehr hinausragend */
+@media screen and (max-width: 600px){
+  h1.title.text-5xl {
+    font-size: 1.8rem;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    hyphens: auto !important;
+  }
+    px-2 {
+      padding-left: 0.2.5rem;
+      padding-right: 0.25rem;
+  }
+}
+
+
+/* navbar */
+nav {
+  background-color: #1f1f1fff;
+}
+
+a:hover,
+#submitbutton:hover {
+  color: var(--red) !important;
+}
+
+/* links navbar */
+nav a.duration-200.block {
+  color: var(--red) !important;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* burgermenubutton */
+.mopen>span {
+  background: var(--graywhite);
+}
+
+
+/* logo */
+.h-14 {
+  height: 5.6rem;
+}
+
+/* logo bild bei mobile kleiner machen */
+@media screen and (max-width: 500px) {
+  img.h-14.mr-3 {
+    height: 4.2rem;
+    margin-right: 0;
+  }
+  /* margin flexbox in der img ist verkleinern*/
+  .flex.items-center.flex-shrink-0.text-xl.text-grey-900.mr-6{
+    margin-right: 1rem !important;
+  }
+}
+
+/* slider text */
+div.s-fade-txt h1.text-4xl {
+  padding-right: clamp(0px, 30%, 800px);
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  line-height: 100% !important;
+  margin-left: -10%;
+}
+/* heading (title) von text fett */
+div.s-fade-txt h1.text-4xl b {
+  font-weight: bold;
+}
+/* .swiper-container img damit können die bilder in der mobile view noch positioniert werden.
+{
+object-position: 50% 25%;
+} */
+.swiper-wrapper img {
+  height: 90vh !important;
+}
+
+
+/* featuresgrid index.html boxen*/
+div.bg-white.text-center.mx-2.px-4.py-10.flex.flex-row.justify-center.items-center.duration-300.transform.h-full {
+  background-color: rgb(44, 44, 44);
+}
+
+/* featuresgrid index.html hintergrund */
+div.bg-tlgray-200.py-6 {
+  background-color: #1f1f1fff;
+}
+
+/* blog intro index.html header in boxen */
+div.text-gray-900.font-bold.text-xl.mb-2 {
+  color: var(--graywhite);
+}
+
+/* blog intro boxen index.html border */
+div.border-r.border-b.border-l.border-gray-400 {
+  border-color: var(--graywhite) !important;
+}
+
+
+
+/* about section index.html */
+div.about {
+  display: grid !important;
+  padding: 2rem 2rem 0rem 2rem !important;
+  gap: 2rem !important;
+  font-size: 1.2rem !important;
+  grid-template-columns: 150px 1fr !important;
+  color: var(--graywhite) !important;
+  text-align: justify;
+
+}
+
+div.about a {
+  text-decoration: none !important;
+}
+
+hr.about {
+  margin: 0 9%;
+  text-align: center;
+  border-top: 1px solid var(--graywhite);
+  border-bottom: none;
+}
+/* about umklappen bei mobile */
+@media screen and (max-width: 800px) {
+  div.about {
+    grid-template-columns: 1fr !important;
+    justify-items: center;
+  }
+
+  div.about img {
+    order: 2;
+  }
+
+  div.about div {
+    order: 1;
+  }
+}
+
+
+/* footer */
+div.flex.items-center.justify-between.flex-wrap.bg-gray-800.p-8.text-white {
+  background-color: rgb(80, 80, 80);
+}
+/* schrift etwas verkleinern im footer */
+@media screen and (max-width: 400px) {
+  a.block.mt-4{
+font-size: 1.085rem !important;
+margin-right:1.08rem !important;
+  }
+}
+
+/* copyrightfooter */
+div.copy.pl-8.py-5.bg-tlgray-700.text-white.text-md {
+  background-color: rgb(98, 98, 98); 
+}
+
+
+/* buttons */
+/* buttons index.html */
+a.duration-200.px-6.py-3.bg-tlgray-800 {
+  background-color: #1f1f1fff !important;
+}
+
+/* container kontakt aufnehmen button */
+.about + .flex.flex-wrap.justify-center.text-gray-300.my-5
+{
+  margin-bottom: 2.5rem;
+}
+
+/* button kontaktformular */
+input.px-8.py-2.duration-200.bg-gray-800.text-white.cursor-pointer.transition-colors {
+  background-color: #1f1f1fff !important;
+}
+
+/* blog nav buttons unten*/
+div.transition-colors.duration-300.border.border-gray-600 {
+  color: var(--graywhite);
+}
+/* blog dateifolder icon */
+#categories .icon-folder {
+  color:var(--graywhite) !important;
+}

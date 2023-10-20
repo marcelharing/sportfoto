@@ -1,0 +1,23 @@
+[
+  {
+    "title": "sportfoto.tirol",
+    "subtitle": "Deine Leidenschaft, unsere Fotos.",
+    "image": "img/slide/slide01.webp",
+    "alt": "Ein Skifahrer",
+    "loading": "eager"
+  },
+  {
+    "title": "sportfoto.tirol",
+    "subtitle": "Deine Leidenschaft, unsere Fotos.",
+    "image": "img/slide/slide03.jpg",
+    "alt": "Ein Skifahrer",
+    "loading": "lazy"
+  },
+  {
+    "title": "sportfoto.tirol",
+    "subtitle": "Deine Leidenschaft, unsere Fotos.",
+    "image": "img/slide/slide02.jpg",
+    "alt": "Ein Skifahrer",
+    "loading": "lazy"
+  }
+]
