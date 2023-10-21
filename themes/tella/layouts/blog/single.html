@@ -35,8 +35,9 @@
         <img class="my-4" alt="{{ .Params.alt }}" src="{{ .Params.image | absURL }}">
         {{ end }}
         <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1">{{.Content}}</div>
-        <div style="width:300px; margin-left: auto; margin-right: auto;" class="share m-2 grid grid-cols-2 lg:grid-cols-4 gap-2">
-            <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank"
+        <!-- folgende share button entfernt aufgrund dsgvo unsicherheiten -->
+       <div style="width:300px; margin-left: auto; margin-right: auto;" class="share m-2 grid grid-cols-2 lg:grid-cols-4 gap-2">
+            <!--  <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank"
                 title="Tweet" class="share-button twitter">
                 <div class="text-white text-center">
                     <span class="icon-twitter text-lg mr-2"></span>Twitter
@@ -47,19 +48,19 @@
                 <div class="text-white text-center">
                     <span class="icon-facebook text-lg mr-2"></span>Facebook
                 </div>
-            </a>
+            </a> -->
             <!-- <a href="https://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}&title={{ .Title }}" target="_blank"
                 title="hatena" class="share-button hatena">
                 <div class="text-white text-center">
                     <span class="icon-hatenabookmark text-lg mr-2"></span>Hatena
                 </div>
             </a> -->
-            <a href="https://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="pocket"
+            <!-- <a href="https://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="pocket"
                 class="share-button pocket">
                 <div class="text-white text-center">
                     <span class="icon-get-pocket text-lg mr-2"></span>Pocket
                 </div>
-            </a>
+            </a> -->
             <!-- <a href="https://timeline.line.me/social-plugin/share?url={{ .Permalink }}" class="share-button line">
                 <div class="text-white text-center">
                     <span class="icon-line text-lg mr-2"></span>LINE

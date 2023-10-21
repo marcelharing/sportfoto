@@ -1,5 +1,5 @@
 baseURL = "https://sportfoto.tirol"
-title = "Sportfoto.tirol Sport-Eventfoto"
+title = "Sportfoto.tirol - Sport-Eventfoto Markus Moser"
 author = "Markus Moser"
 languageCode = "de"
 DefaultContentLanguage = "de"
@@ -39,12 +39,12 @@ enableRobotsTXT = true
     fontawesome = false
 
   [params.homepage_meta_tags]
-    meta_description = "Markus Moser Sport-Eventfoto, Fotograf in Tirol"
+    meta_description = "Markus Moser, dein Fotograf für sportliche Höhepunkte. Skifotos, Sportfotos und Eventfotos in Tirol."
     meta_og_title = "Sprtfoto.tirol"
     meta_og_type = "website"
     meta_og_url = "https://sportfoto.tirol"
-    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-    meta_og_description = "Markus Moser Sport-Eventfoto, Fotograf in Tirol"
+  #  meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_description = "Markus Moser, dein Fotograf für sportliche Höhepunkte. Skifotos, Sportfotos und Eventfotos in Tirol."
    #  meta_twitter_site = "@username"
    # meta_twitter_creator = "@username"
   

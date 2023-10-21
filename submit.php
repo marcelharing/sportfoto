@@ -14,8 +14,8 @@
         <script>
             // JavaScript für die Weiterleitung nach 4 Sekunden
             setTimeout(function() {
-                window.location.href = "deine_formularseite.html"; 
-            }, 4000); // 4000 Millisekunden = 4 Sekunden
+                window.location.href = "https://sportfoto.tirol/kontakt/"; 
+            }, 3000); // 4000 Millisekunden = 4 Sekunden
         </script>
     </head>
     <body>
@@ -42,11 +42,13 @@
      
      
      
-            // Logo-Vorlage
-            echo '<img src="https://i0.wp.com/cdn.jotfor.ms/assets/img/v4/avatar/Podo-Avatar2-02.png" alt="Logo">';
+
             // Zurück-Button
             echo '<p>Du wirst in in Kürze wieder zurück zur Ausgangsseite geleitet.</p>
-    <a href="deine_formularseite.html">Gleich zurück</a>';
+    <p><a href="deine_formularseite.html">Gleich zurück</a></p>';
+
+                // Logo-Vorlage
+                echo '<img src="https://sportfoto.tirol/img/logo/logo.svg" alt="Logo" width="330px">';
         }
         ?>
      
