@@ -1,4 +1,4 @@
-baseURL = "https://sportfoto.tirol/index.html"
+baseURL = "https://sportfoto.tirol"
 title = "Sportfoto.tirol Sport-Eventfoto"
 author = "Markus Moser"
 languageCode = "de"
@@ -24,7 +24,7 @@ enableRobotsTXT = true
   googleFonts = false
 
   [params.logo]
-    main = "img/logo/logo.webp"
+    main = "img/logo/logo.svg"
     alt = "Sportfoto.tirol Logo"
 
     # The size parameter is the class name of tailwindcss
