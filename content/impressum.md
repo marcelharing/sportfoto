@@ -11,7 +11,7 @@ A-6020 Innsbruck
 Behörde gem. ECG (E-Commerce Gesetz): Magistrat der Stadt Innsbruck
 
 E-Mail: [info[ät]sportfoto.tirol](https://sportfoto.tirol/redirect-mailto.php)  
-Alternativ: mm[ät]foto.tirol  
+Alternativ: mm-[ät]foto.gmx.net
 
 ## AGB Verbrauchergeschäfte
 

@@ -232,7 +232,8 @@ Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenomm
 Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat
 ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website –
 hierzu müssen die Server-Log-Files erfasst werden.
-Kontaktformular
+
+### Kontaktformular
 
 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem
 Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage
@@ -336,7 +337,7 @@ DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die
 europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach
 dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere
 Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link:
-https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active
+https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI
 
 <!-- ### Vimeo ohne Tracking (Do-Not-Track)
 Diese Website nutzt Plugins des Videoportals Vimeo. Anbieter ist die Vimeo Inc., 555 West 18th Street, New

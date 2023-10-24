@@ -118,12 +118,13 @@ div.s-fade-txt h1.text-4xl {
 div.s-fade-txt h1.text-4xl b {
   font-weight: bold;
 }
-/* .swiper-container img damit können die bilder in der mobile view noch positioniert werden.
-{
-object-position: 50% 25%;
-} */
+/* besseres positionieren der einzelnen bilder, damit auch in der mobilen version das eigentliche sujet sichtbar bleibt*/
+img[src="img/slide/slide01.webp"] {
+  object-position: 64% 50% !important;
+}
+
 .swiper-wrapper img {
-  height: 90vh !important;
+  height: 89vh !important;
 }
 
 
